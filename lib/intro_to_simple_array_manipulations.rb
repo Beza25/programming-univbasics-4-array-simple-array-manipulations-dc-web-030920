@@ -1,6 +1,11 @@
-def using_push 
-  array.push("element")
+def using_push(array, element) 
+  array.push(element)
 end
 
-def using_unshift
-  array.push("element")
+def using_unshift(array, element)
+  array.push(element)
+end
+
+def using_pop(array)
+  array.pop 
+end
