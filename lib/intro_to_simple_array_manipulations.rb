@@ -3,7 +3,7 @@ def using_push(array, element)
 end
 
 def using_unshift(array, element)
-  array.push(element)
+  array.unshift(element)
 end
 
 def using_pop(array)
@@ -41,7 +41,7 @@ def using_delete(array, element)
   array.delete(element)
 end
 def using_delete_at(array,index)
-  array.delete(index) 
+  array.delete_at(index) 
 end
 
 
